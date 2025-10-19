@@ -1,0 +1,51 @@
+Con người (People):
+
+- Khách hàng: đặt món, thanh toán, đánh giá đơn hàng.
+
+- Nhà hàng: nhận đơn, chuẩn bị và xác nhận món.
+
+- Tài xế giao hàng: nhận đơn, lấy món, giao cho khách.
+
+- Nhân viên quản trị hệ thống: giám sát, xử lý lỗi, hỗ trợ người dùng.
+
+Dữ liệu (Data)
+
+- Thông tin người dùng, nhà hàng, tài xế.
+
+- Menu món ăn, giá cả, hình ảnh.
+
+- Dữ liệu đơn hàng, thời gian, địa chỉ giao hàng.
+
+- Dữ liệu thanh toán, đánh giá và thống kê hoạt động.
+
+Quy trình (Process)
+
+- Bước 1: Khách hàng đăng nhập và chọn món.
+
+- Bước 2: Gửi đơn hàng cho nhà hàng.
+
+- Bước 3: Nhà hàng xác nhận, hệ thống gán tài xế gần nhất.
+
+- Bước 4: Tài xế lấy món và giao cho khách.
+
+- Bước 5: Khách hàng nhận hàng, thanh toán và đánh giá.
+
+Kèm theo quy trình quản lý: xử lý khiếu nại, khuyến mãi, báo cáo.
+
+Phần mềm (Software)
+
+- Ứng dụng di động cho khách hàng, tài xế, nhà hàng.
+
+- Trang web và hệ thống quản trị dành cho quản lý.
+
+- Phần mềm máy chủ xử lý đơn hàng, thanh toán, định vị GPS.
+
+- Hệ thống cơ sở dữ liệu lưu trữ thông tin.
+
+Phần cứng (Hardware)
+
+- Máy chủ, trung tâm dữ liệu, thiết bị lưu trữ.
+
+- Thiết bị người dùng: điện thoại, máy tính bảng, máy tính.
+
+- Bộ định tuyến mạng, GPS, máy in hóa đơn tại nhà hàng.

@@ -1,0 +1,26 @@
+Sơ đồ UML tương ứng là: Use Case Diagram
+
+1. Planning (Lập kế hoạch):
+- Xác định mục tiêu dự án: xây dựng ứng dụng điểm danh sinh viên bằng QR code giúp tiết kiệm thời gian và giảm gian lận.
+- Phạm vi: dùng trong toàn trường, bao gồm giảng viên, sinh viên, và phòng đào tạo.
+- Phân công công việc: lập trình viên, thiết kế giao diện, kiểm thử viên.
+- Dự tính thời gian và chi phí: chọn công nghệ (web + mobile), hạ tầng máy chủ, bảo mật dữ liệu sinh viên.
+
+2. Requirement Analysis (Phân tích yêu cầu):
+- Khảo sát và thu thập yêu cầu: phỏng vấn giảng viên, sinh viên, phòng đào tạo.
+- Xác định yêu cầu chức năng:
+  • Giảng viên tạo buổi học, sinh mã QR.
+  • Sinh viên đăng nhập và quét mã để điểm danh.
+  • Phòng đào tạo xem thống kê, xuất báo cáo.
+- Yêu cầu phi chức năng:
+  • Tốc độ xử lý nhanh, bảo mật thông tin, giao diện thân thiện.
+- Vẽ sơ đồ Use Case để mô tả mối quan hệ giữa người dùng và chức năng.
+
+3. System Design (Thiết kế hệ thống):
+- Thiết kế kiến trúc hệ thống: Ứng dụng client (mobile/web) ↔ Server ↔ Database.
+- Thiết kế giao diện người dùng: trang đăng nhập, giao diện quét QR, trang thống kê.
+- Thiết kế cơ sở dữ liệu: các bảng như SinhVien, GiangVien, LopHoc, BuoiHoc, DiemDanh.
+- Thiết kế sơ đồ UML khác:
+  • Class Diagram – mô tả các lớp dữ liệu.
+  • Sequence Diagram – mô tả luồng điểm danh bằng QR.
+- Xác định công nghệ: ngôn ngữ lập trình (ví dụ: Node.js + React Native), cơ sở dữ liệu (MySQL hoặc Firebase).

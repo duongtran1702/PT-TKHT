@@ -1,0 +1,97 @@
+1. Planning (Lập kế hoạch)
+
+- Xác định mục tiêu: xây dựng hệ thống hỗ trợ người dân đăng ký tiêm online.
+
+-Trong dự án:
+
+    + Phạm vi: đăng ký, xác nhận, xếp lịch, theo dõi đã/ chưa tiêm.
+
+    + Xác định nhóm phát triển, công nghệ (VD: React, Node.js, MySQL).
+
+    + Ước lượng chi phí, thời gian, phân công nhân sự.
+
+- Kết quả: Kế hoạch dự án (Project Plan).
+
+2. Analysis (Phân tích yêu cầu):
+
+- Mục tiêu: Thu thập và làm rõ yêu cầu từ người dùng và trung tâm y tế.
+
+- Trong dự án: 
+
+    + Phỏng vấn cán bộ y tế, người dân để hiểu nhu cầu thật.
+
+    + Mô tả chi tiết các chức năng chính:
+
+    + Người dân đăng ký thông tin cá nhân và mũi tiêm.
+
+    + Trung tâm xác nhận, sắp lịch tiêm.
+
+    + Theo dõi danh sách người đã/ chưa tiêm.
+
+    + Phân tích yêu cầu phi chức năng: bảo mật, tốc độ, độ ổn định.
+
+    + Vẽ Use Case Diagram mô tả hành vi người dùng.
+
+- Kết quả: Tài liệu yêu cầu phần mềm (SRS – Software Requirement Specification).
+
+3. Design (Thiết kế hệ thống):
+
+- Mục tiêu: Biến yêu cầu thành thiết kế logic và kỹ thuật cụ thể.
+
+- Trong dự án:
+
+    + Thiết kế CSDL (bảng NgườiDân, LịchTiêm, MũiTiêm, TrungTâm).
+
+    + Thiết kế Class Diagram, Sequence Diagram, Activity Diagram.
+
+    + Thiết kế giao diện người dùng (UI/UX) thân thiện.
+
+    + Lên kiến trúc hệ thống: client – server – database.
+
+- Kết quả: Tài liệu thiết kế hệ thống (System Design Document).
+
+4. Implementation (Lập trình / Triển khai phát triển)
+
+- Mục tiêu: Xây dựng phần mềm dựa trên thiết kế đã phê duyệt.
+
+- Trong dự án này:
+
+    + Chia nhóm code: Frontend (React) và Backend (Node.js/Express).
+
+    + Tạo API: đăng ký tiêm, xác nhận, xếp lịch, thống kê.
+
+    + Kết nối với cơ sở dữ liệu (MySQL).
+
+    + Viết Unit Test cho từng module.
+
+- Kết quả: Hệ thống hoàn chỉnh (phiên bản chạy được).
+
+5. Testing (Kiểm thử)
+
+- Mục tiêu: Phát hiện và khắc phục lỗi để đảm bảo chất lượng.
+
+- Trong dự án:
+
+    + Kiểm thử chức năng (Functional test): đăng ký, xác nhận, theo dõi.
+
+    + Kiểm thử hiệu năng, bảo mật, giao diện, tích hợp.
+
+    + Thu thập phản hồi và chỉnh sửa lỗi.
+
+- Kết quả: Phần mềm ổn định, không còn lỗi nghiêm trọng.
+
+6. Deployment & Maintenance (Triển khai & Bảo trì)
+
+- Mục tiêu: Đưa hệ thống vào hoạt động và duy trì ổn định lâu dài.
+
+- Trong dự án:
+
+    +Cài đặt hệ thống lên máy chủ thật (hoặc cloud).
+
+    +Cung cấp tài khoản quản trị cho trung tâm y tế.
+
+    +Hướng dẫn sử dụng cho nhân viên y tế.
+
+    +Theo dõi phản hồi, sửa lỗi, cập nhật tính năng (như nhắc lịch tiêm, thống kê nâng cao).
+
+- Kết quả: Hệ thống hoạt động ổn định, được duy trì và cải tiến liên tục.

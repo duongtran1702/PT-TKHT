@@ -1,0 +1,109 @@
+1. Các tác nhân (Actors) và chức năng chính
+
+- Khách hàng (Customer)
+
+    Tạo đơn hàng (đăng ký gửi)
+
+    Thanh toán (nếu có)
+
+    Theo dõi trạng thái đơn (tracking)
+
+    Yêu cầu hỗ trợ / khiếu nại
+
+- Nhân viên vận chuyển / Tài xế (Shipper / Driver)
+
+    Nhận lệnh giao
+
+    Cập nhật trạng thái (đã lấy hàng, đang giao, giao thành công, giao thất bại)
+
+    Ghi chú vị trí / thời gian / bằng chứng giao hàng (ảnh, chữ ký)
+
+- Nhân viên kho / Kho vận (Warehouse staff)
+
+    Tiếp nhận hàng, kiểm hàng, xếp kho
+
+    Chuyển đơn cho tài xế / chuyển tuyến
+
+- Điều phối / Dispatcher
+
+    Gán đơn cho tài xế, tối ưu tuyến cơ bản
+
+    Quản lý lịch trình giao hàng
+
+- Quản lý (Operation Manager)
+
+    Theo dõi KPI vận hành (số đơn/ngày, tỉ lệ giao đúng hạn, khu vực tồn đọng)
+
+    Xuất báo cáo vận hành
+
+- CEO / Lãnh đạo cấp cao
+
+    Xem dashboard tổng quan: giao dịch, vùng hoạt động, tỉ lệ giao đúng hạn, doanh thu
+
+- Admin / IT
+
+    Quản lý người dùng, phân quyền, cấu hình hệ thống, kết nối API (ví dụ: cổng thanh toán, bản đồ)
+
+2. Phân loại chức năng theo loại hệ thống thông tin (TPS, MIS, DSS, EIS)
+
+- TPS (Transaction Processing System)
+
+    Tạo đơn hàng, lưu đơn, cập nhật trạng thái giao hàng, thanh toán, ghi nhận bằng chứng giao hàng.
+
+    Lý do: xử lý giao dịch hàng ngày, tính lặp lại, cần độ chính xác và nhất quán.
+
+- MIS (Management Information System)
+
+    Báo cáo định kỳ cho quản lý: số đơn theo ngày/tuần/tháng, hiệu suất tài xế, báo cáo kho, báo cáo vùng.
+
+    Lý do: tổng hợp dữ liệu TPS thành báo cáo quản trị cho cấp trung.
+
+- DSS (Decision Support System)
+
+    Phân tích khu vực tồn đọng, gợi ý phân bổ tài xế, tối ưu tuyến, dự báo khối lượng đơn theo vùng/giờ.
+
+    Lý do: hỗ trợ ra quyết định (phân tích, mô phỏng, what-if).
+
+- EIS (Executive Information System / ESS)
+
+    Dashboard cho CEO: tổng quan giao dịch, vùng hoạt động, tỉ lệ giao đúng hẹn, KPIs chiến lược.
+
+    Lý do: cung cấp thông tin tổng quát, trực quan, hỗ trợ quyết định chiến lược.
+
+3. Mô hình phát triển phần mềm đề xuất (và lý do)
+
+- Đề xuất: Agile (Scrum) kết hợp DevOps / Continuous Delivery
+
+- Lý do:
+
++ Dự án cần tích hợp nhiều hệ thống bên ngoài (GPS, payment, SMS) và thường có yêu cầu thay đổi theo thời gian → Agile cho phép lặp nhanh, nhận phản hồi sớm.
+
++ Logistics cần deploy thường xuyên (sửa lỗi, bổ sung tính năng như tracking realtime, tối ưu tuyến) → DevOps/CI-CD giúp phát hành an toàn, nhanh.
+
++ Có thể phân chia theo mvp → các sprint: giai đoạn 1: TPS cơ bản (tạo đơn, tracking, cập nhật trạng thái); giai đoạn 2: MIS + báo cáo; giai đoạn 3: DSS + EIS + tối ưu tuyến.
+
+4. 4 sơ đồ UML đề xuất & mục đích ngắn
+
+- Use Case Diagram
+
+    Mục đích: Mô tả các tác nhân (customer, shipper, manager, CEO, admin) và chức năng chính hệ thống (tạo đơn, cập nhật trạng thái, theo dõi, xuất báo cáo).
+
+    Lý do: dễ cho stakeholders nhìn thấy ai làm gì.
+
+- Class Diagram
+
+    Mục đích: Mô tả mô hình dữ liệu chính (Order, Customer, Shipment, Driver, Warehouse, TrackingEvent, Invoice…).
+
+    Lý do: làm cơ sở thiết kế cơ sở dữ liệu và API.
+
+- Sequence Diagram (Order Lifecycle)
+
+    Mục đích: Mô tả luồng tương tác theo thời gian khi tạo đơn → xác nhận → gán tài xế → cập nhật trạng thái → giao thành công.
+
+    Lý do: xác định API call, thông điệp giữa client, server, dispatcher, external services.
+
+- Deployment Diagram
+
+    Mục đích: Mô tả triển khai hạ tầng: web/mobile client, API gateway, application servers, message broker (queue), database, mapping/GPS service, CDN.
+
+    Lý do: lên kế hoạch hạ tầng, scaling, high-availability, phân bổ component vào server/cloud.

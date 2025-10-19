@@ -1,0 +1,56 @@
+1. Xác định tác nhân và chức năng
+
+Học viên:
+
+    Đăng ký tài khoản và khóa học
+
+    Tham gia học trực tuyến
+
+    Làm bài kiểm tra, xem điểm và tiến độ học
+
+Giảng viên:
+
+    Quản lý bài học, tài liệu giảng dạy
+
+    Nhập điểm và nhận xét học viên
+
+    Tương tác, hỗ trợ học viên trong khóa học
+
+Quản trị viên (Admin):
+
+    Quản lý người dùng (học viên, giảng viên)
+
+    Phân quyền truy cập hệ thống
+
+    Theo dõi báo cáo, thống kê hoạt động học tập và doanh thu
+
+2. Phân loại hệ thống thông tin phù hợp
+
+TPS (Transaction Processing System):
+    → Xử lý giao dịch như đăng ký khóa học, nộp bài, cập nhật điểm.
+
+MIS (Management Information System):
+    → Tổng hợp dữ liệu học tập, điểm số, tình hình khóa học cho quản lý trung tâm.
+
+EIS (Executive Information System):
+    → Cung cấp bảng điều khiển (dashboard) và báo cáo tổng hợp cho lãnh đạo trung tâm ngoại ngữ.
+
+3. Mô hình phát triển phần mềm đề xuất
+
+Mô hình phù hợp: Agile (hoặc Incremental Model)
+
+Lý do chọn:
+
+    Hệ thống có nhiều chức năng cần phản hồi liên tục từ người dùng.
+
+    Dễ mở rộng thêm tính năng như học video, chấm điểm tự động, thống kê tiến độ.
+
+    Cho phép triển khai sớm từng phần và cập nhật nhanh theo nhu cầu trung tâm.
+
+4. Ba sơ đồ UML sử dụng trong thiết kế
+
+- Use Case Diagram: Mô tả các chức năng chính của học viên, giảng viên, admin.
+
+- Class Diagram: Thể hiện cấu trúc dữ liệu (Lớp HọcVien, GiangVien, KhoaHoc, BaiHoc, DiemSo…).
+
+- Sequence Diagram: Mô tả trình tự tương tác giữa học viên – hệ thống – giảng viên trong quá trình học hoặc nộp bài.
