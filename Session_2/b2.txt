@@ -1,0 +1,21 @@
+1. Yêu cầu chức năng (Functional Requirements)
+
+Đăng nhập và xác thực người dùng
+→ Cho phép người dùng đăng nhập bằng mật khẩu, vân tay hoặc Face ID.
+
+Chuyển khoản
+→ Người dùng có thể chuyển tiền nội bộ hoặc liên ngân hàng, nhập số tài khoản và số tiền.
+
+Xem lịch sử giao dịch
+→ Hiển thị danh sách các giao dịch gần nhất và chi tiết từng giao dịch.
+
+2. Yêu cầu phi chức năng (Non-Functional Requirements)
+
+Bảo mật (Security)
+→ Dữ liệu phải được mã hóa; đăng nhập có xác thực hai lớp (OTP).
+
+Hiệu năng (Performance)
+→ Ứng dụng xử lý giao dịch trong vòng < 3 giây.
+
+Tính khả dụng (Usability)
+→ Giao diện thân thiện, dễ sử dụng cho mọi lứa tuổi.

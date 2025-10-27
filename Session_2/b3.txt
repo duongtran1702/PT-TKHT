@@ -1,0 +1,47 @@
+1. Người dùng (Users)
+
+    Người mua hàng (khách hàng).
+
+    Người bán hàng (shop).
+
+    Nhân viên hỗ trợ Shopee (CSKH, kiểm duyệt).
+
+2. Phần cứng (Hardware)
+
+    Điện thoại thông minh, máy tính bảng, máy tính cá nhân.
+
+    Máy chủ (server) Shopee đặt tại trung tâm dữ liệu.
+
+    Thiết bị mạng, router, hệ thống lưu trữ đám mây.
+
+3. Phần mềm (Software)
+
+    Ứng dụng Shopee (Android, iOS).
+
+    Trang web Shopee.vn.
+
+    Hệ thống cơ sở dữ liệu, phần mềm quản lý đơn hàng và thanh toán.
+
+4. Hệ thống bên ngoài (External Systems)
+
+    Hệ thống thanh toán điện tử (MoMo, ZaloPay, ngân hàng).
+
+    Hệ thống vận chuyển (Shopee Express, Giao Hàng Nhanh, Viettel Post).
+
+    Mạng xã hội (Facebook, TikTok) dùng để quảng cáo hoặc đăng nhập.
+
+5. Quy trình nghiệp vụ (Business Processes)
+
+    Đăng ký và xác minh tài khoản người bán/mua.
+
+    Đặt hàng → Thanh toán → Vận chuyển → Đánh giá sản phẩm.
+
+    Xử lý khiếu nại, hoàn tiền, đổi trả.
+
+6. Luật lệ & Quy định (Regulations)
+
+    Luật Thương mại điện tử Việt Nam.
+
+    Quy định về bảo vệ thông tin cá nhân người dùng.
+
+    Chính sách thuế, phí giao dịch, và hoàn tiền của Shopee.

@@ -1,0 +1,75 @@
+1. Giới thiệu (Introduction)
+
+    1.1 Mục đích:
+    Giới thiệu mục tiêu và phạm vi của tài liệu SRS; người đọc hướng đến là ai (khách hàng, lập trình viên, quản lý...).
+
+    1.2 Phạm vi hệ thống:
+    Mô tả ngắn gọn hệ thống đặt món ăn — cho phép khách chọn món, đặt bàn, thanh toán và theo dõi đơn.
+
+    1.3 Định nghĩa, thuật ngữ:
+    Liệt kê các thuật ngữ, viết tắt dùng trong tài liệu (VD: POS – Point of Sale, API – Application Programming Interface).
+
+    1.4 Tài liệu tham khảo:
+    Liệt kê các tài liệu, tiêu chuẩn hoặc nguồn thông tin tham khảo khi xây dựng hệ thống.
+
+2. Mô tả tổng quan (Overall Description)
+
+    2.1 Bối cảnh hệ thống:
+    Mô tả hệ thống hoạt động trong môi trường nào (trên thiết bị di động, web, kết nối máy in hóa đơn…).
+
+    2.2 Chức năng tổng quát:
+    Tóm tắt các nhóm chức năng chính như: đặt món, thanh toán, quản lý thực đơn, báo cáo doanh thu.
+
+    2.3 Đặc điểm người dùng:
+    Mô tả các loại người dùng: khách hàng, nhân viên phục vụ, đầu bếp, quản lý.
+
+    2.4 Giới hạn & ràng buộc:
+    Các hạn chế về kỹ thuật, tài chính, bảo mật hoặc thời gian phát triển.
+
+    2.5 Giả định và phụ thuộc:
+    Những điều kiện hệ thống cần (như có mạng Wi-Fi, có máy POS, hỗ trợ thanh toán online...).
+
+3. Yêu cầu cụ thể (Specific Requirements)
+
+    3.1 Yêu cầu chức năng:
+
+    Đăng nhập, đăng ký tài khoản.
+
+    Xem và chọn món ăn.
+
+    Đặt món và thanh toán.
+
+    Quản lý đơn hàng và trạng thái chế biến.
+
+    3.2 Yêu cầu phi chức năng:
+
+    Bảo mật thông tin khách hàng.
+
+    Thời gian phản hồi nhanh (dưới 2 giây).
+
+    Giao diện dễ sử dụng và thân thiện.
+
+    Hoạt động ổn định trong môi trường nhiều người truy cập.
+
+4. Mô hình và giao diện (System Models & Interfaces)
+
+    4.1 Sơ đồ use case:
+    Biểu diễn các tương tác giữa người dùng và hệ thống.
+
+    4.2 Sơ đồ tuần tự:
+    Mô tả luồng xử lý khi đặt món, thanh toán, hoặc cập nhật đơn.
+
+    4.3 Giao diện người dùng:
+    Minh họa bố cục các màn hình chính: menu, giỏ hàng, thanh toán.
+
+5. Ràng buộc hệ thống (System Constraints)
+
+    Hệ thống phải hoạt động trên thiết bị di động và trình duyệt.
+
+    Dữ liệu phải được lưu trữ an toàn trong cơ sở dữ liệu trung tâm.
+
+    Tương thích với thiết bị in hóa đơn và máy POS.
+
+6. Phụ lục (Appendix)
+
+    Bảng thuật ngữ, tài liệu tham khảo, hoặc biểu mẫu dùng trong quá trình phát triển.

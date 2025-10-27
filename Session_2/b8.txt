@@ -1,0 +1,21 @@
+Mô tả quy trình:
+
+Người dùng truy cập website hoặc app → chọn sản phẩm → thêm vào giỏ hàng → thanh toán → nhận xác nhận đơn → theo dõi trạng thái giao hàng.
+
+Yêu cầu chức năng (Functional Requirements):
+
+    Hệ thống cho phép người dùng đăng ký, đăng nhập tài khoản.
+
+    Người dùng có thể tìm kiếm và lọc sản phẩm theo danh mục, giá, thương hiệu.
+
+    Hệ thống cho phép thanh toán trực tuyến bằng nhiều hình thức (thẻ, ví điện tử, COD).
+
+    Người dùng có thể theo dõi trạng thái đơn hàng và nhận thông báo cập nhật.
+
+Yêu cầu phi chức năng (Non-Functional Requirements):
+
+    Hiệu năng: Hệ thống phải xử lý đơn hàng và phản hồi trong vòng dưới 3 giây.
+
+    Bảo mật: Dữ liệu người dùng và thông tin thanh toán phải được mã hóa và bảo vệ an toàn.
+
+    Tính sẵn sàng: Hệ thống phải hoạt động liên tục 24/7 với thời gian ngừng tối đa không quá 1%.

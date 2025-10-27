@@ -2,3 +2,10 @@ TPS → Xử lý công việc thường nhật
 MIS → Tổng hợp dữ liệu hoạt động để báo cáo định kỳ cho quản lý trung cấp
 DSS → Phân tích, hỗ trợ ra quyết định
 EIS/ESS → Cung cấp thông tin chiến lược cho lãnh đạo cấp cao
+Software Development Life Cycle:SDLC
+
+Hệ thống xử lý giao dịch – TPS (Transaction Processing System)
+Hệ thống thông tin quản lý – MIS (Management Information System)
+Hệ thống hỗ trợ ra quyết định – DSS (Decision Support System)
+Hệ thống thông tin điều hành – ESS (Executive Support System)
+Hệ thống chuyên gia – ES (Expert System)

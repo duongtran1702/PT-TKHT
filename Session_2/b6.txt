@@ -1,0 +1,31 @@
+1. Chính sách và quy định y tế:
+→ Hệ thống phải tuân thủ quy định của Bộ Y tế về lưu trữ và bảo mật hồ sơ bệnh án điện tử.
+→ Ảnh hưởng đến việc mã hóa dữ liệu, xác thực người dùng và phân quyền truy cập.
+
+2. Hạ tầng công nghệ của bệnh viện:
+→ Cấu hình máy chủ, mạng nội bộ và thiết bị đầu cuối quyết định tốc độ xử lý và khả năng đáp ứng của hệ thống.
+→ Nếu hạ tầng yếu, cần tối ưu hệ thống nhẹ, hỗ trợ cài đặt cục bộ hoặc hoạt động offline.
+
+3. Người dùng hệ thống (bác sĩ, y tá, nhân viên, bệnh nhân):
+→ Mỗi nhóm có trình độ công nghệ khác nhau nên giao diện cần thân thiện, dễ hiểu, đa ngôn ngữ.
+→ Ảnh hưởng đến yêu cầu thiết kế UI/UX và mức độ hướng dẫn sử dụng.
+
+4. Dữ liệu y tế lớn và nhạy cảm:
+→ Thông tin bệnh nhân, kết quả xét nghiệm, chẩn đoán là dữ liệu quan trọng.
+→ Cần bảo mật cao, sao lưu định kỳ, chống truy cập trái phép hoặc rò rỉ thông tin.
+
+5. Môi trường vận hành:
+→ Tùy quy mô bệnh viện (tuyến tỉnh, trung ương, tư nhân…) mà yêu cầu về số lượng người dùng, dữ liệu và khả năng mở rộng khác nhau.
+→ Hệ thống cần hỗ trợ hoạt động 24/7 và có khả năng chịu tải tốt.
+
+6. Tích hợp với thiết bị y tế và hệ thống khác:
+→ Cần kết nối với máy siêu âm, xét nghiệm, phần mềm thanh toán bảo hiểm.
+→ Ảnh hưởng đến yêu cầu hỗ trợ chuẩn dữ liệu như HL7, DICOM, và API tích hợp.
+
+7. Ngân sách và nguồn nhân lực IT:
+→ Nếu nguồn lực hạn chế, phải chọn công nghệ phù hợp, chi phí thấp, dễ bảo trì.
+→ Ảnh hưởng đến phạm vi phát triển, kiến trúc hệ thống và mức độ tự động hóa.
+
+8. Bảo mật và an toàn thông tin:
+→ Do tính nhạy cảm của dữ liệu y tế, yêu cầu hệ thống có xác thực hai lớp, phân quyền chi tiết, ghi log truy cập và mã hóa dữ liệu.
+→ Ảnh hưởng trực tiếp đến thiết kế cơ sở dữ liệu và bảo mật mạng.

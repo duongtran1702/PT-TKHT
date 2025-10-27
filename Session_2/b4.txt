@@ -1,0 +1,41 @@
+SRS (Software Requirement Specification)
+
+1. Giới thiệu (Introduction)
+
+Giới thiệu tổng quan về hệ thống học trực tuyến, mục tiêu phát triển và phạm vi sử dụng.
+→ Giúp người đọc hiểu rõ hệ thống sẽ giải quyết vấn đề gì và cho ai.
+
+2. Mục tiêu tổng thể (Overall Description)
+
+Trình bày bối cảnh hệ thống, loại người dùng, và các ràng buộc kỹ thuật.
+→ Cung cấp cái nhìn tổng quát về cách hệ thống hoạt động trong môi trường thực tế.
+
+3. Yêu cầu chức năng (Functional Requirements)
+
+Liệt kê chi tiết các chức năng mà hệ thống phải có như: đăng nhập, học trực tuyến, làm bài kiểm tra, quản lý khóa học.
+→ Là phần cốt lõi mô tả hệ thống làm gì.
+
+4. Yêu cầu phi chức năng (Non-Functional Requirements)
+
+Mô tả các yêu cầu về hiệu năng, bảo mật, tính ổn định, khả năng mở rộng, và giao diện người dùng.
+→ Xác định chất lượng mà hệ thống cần đạt được.
+
+5. Giao diện người dùng và hệ thống (System Interface & UI Design)
+
+Mô tả các màn hình chính (trang đăng nhập, lớp học, bài kiểm tra), và các kết nối với hệ thống khác.
+→ Giúp hình dung cách người dùng tương tác với hệ thống.
+
+6. Các ràng buộc (Constraints)
+
+Đề cập đến giới hạn về công nghệ, phần cứng, ngôn ngữ lập trình, hoặc yêu cầu pháp lý.
+→ Giúp nhóm phát triển biết những yếu tố không được vượt quá.
+
+7. Mô hình hệ thống (System Models)
+
+Bao gồm sơ đồ use case, sơ đồ trình tự (sequence), sơ đồ lớp (class).
+→ Minh họa trực quan cấu trúc và luồng hoạt động của hệ thống.
+
+8. Phụ lục (Appendices)
+
+Cung cấp tài liệu bổ sung như từ viết tắt, thuật ngữ chuyên ngành, hoặc tài liệu tham khảo.
+→ Giúp người đọc hiểu rõ hơn các chi tiết kỹ thuật hoặc nghiệp vụ.
