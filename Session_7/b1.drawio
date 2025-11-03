@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="CHFD4pCPlZwVwrn4CEHp" name="Page-1">
+        <mxGraphModel dx="408" dy="834" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Giao diện người dùng&lt;/b&gt;&lt;/font&gt;&amp;nbsp;&lt;div&gt;Hiển thị sản phẩm&lt;/div&gt;&lt;div&gt;Quản lý giỏ hàng,thanh toán&lt;/div&gt;&lt;div&gt;Quản lý thông tin cá nhân&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;b&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;Backend/API Server&lt;/span&gt;&amp;nbsp;&lt;/b&gt;&lt;div&gt;Xử lý logic nghiệp vụ&lt;/div&gt;&lt;div&gt;Xác thực ,phân quyền&lt;/div&gt;&lt;div&gt;Giao tiếp với database và dịch vụ bên ngoài&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="180" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;b&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;Database Server&lt;/span&gt;&amp;nbsp;&lt;/b&gt;&lt;div&gt;Lưu trữ dữ liệu người dùng, sản phẩm, đơn hàng, thanh toán&lt;/div&gt;&lt;div&gt;CSDL:MySLL/SQL&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="380" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;External Services&lt;/b&gt;&lt;/span&gt;&amp;nbsp;&lt;div&gt;Thanh toán&lt;/div&gt;&lt;div&gt;Email,thông báo&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="570" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;entryX=0.54;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
